@@ -1,0 +1,91 @@
+/*------------------------------------------------VARIABLES*/
+/*En este apartado podemos hacer un root solo de colores si nosotros necesitamos*/
+:root{
+    --green-color:#7ACC2D;
+    --white-color:white;
+    /*Tipografía*/
+    --normal:12px;
+    /*Espaciado*/
+    --space:10px;
+}
+/*------------------------------------------------VARIABLES*/
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-size: var(--normal);
+    font-family: helvetica;
+}
+
+nav{
+    display: flex;
+    background-color: var(--green-color);
+    padding: var(--space);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding-left: 20px;
+    list-style: none;
+}
+
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: var(--white-color);
+}
+
+/*--------------------------------Main Section */
+
+.main_section{
+    padding: 15%;
+    text-align: center;
+}
+
+.products{
+    background-image: url("../img/curve.png");
+    max-height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 20%;
+    display: flex;
+}
+
+.product{
+    padding: var(--space);
+    margin-top: -230px;
+}
+
+.product .content{
+    background-color: var(--white-color);
+    padding: 15px;
+    box-shadow: 0 0 1px #c1bcbc;
+}
+
+.img_content{
+    text-align: center;
+
+}
+
+.main_button{
+    background-color: var(--green-color);
+    width: 100%;
+    padding: var(--space);
+    font-size: 17px;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.main_button:hover{
+    background-color: #5e9e27;
+}

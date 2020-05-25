@@ -1,0 +1,19 @@
+/*Para que podamos usar un tamaño para celulares, nosotros utilizamos esto*/
+@media (max-width: 600px) {
+    .products{
+        display: inherit;
+        height: auto;
+    }
+}
+
+.product{
+    margin-top: auto;
+}
+
+.margin_section{
+    padding: 4%;
+}
+
+.beneficios{
+    display: auto;
+}
