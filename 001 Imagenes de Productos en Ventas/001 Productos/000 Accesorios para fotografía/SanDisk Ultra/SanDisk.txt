@@ -1,0 +1,14 @@
+	La tarjeta SanDisk tendrá un precio de:
+La de 32GB será de Q129 
+La de 64GB será Q149  
+La de 128GB será de Q249
+La de 256GB será de Q439 
+
+De este producto nuestro Inventario solo está disponible en: 
+5 de 32GB
+2 de 64GB
+2 de 128GB
+3 de 256GB
+
+En las especificaciones podemos decir que es una Memory Card (Tarjeta de Memoria)
+
