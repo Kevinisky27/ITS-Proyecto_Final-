@@ -137,3 +137,24 @@
             color: rgb(5, 0, 0);
             padding: 10px 20px;
         }
+        
+        .final {
+            background-color: rgb(17, 71, 235);
+            border-style: solid;
+            border-color: rgb(158, 133, 133);
+            border-radius: 4px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        .final {
+            display: inline-block;
+            color: aqua;
+            text-decoration: none;
+            padding: 8px 15px;
+            line-height: normal;
+            font-size: 17px;
+            font-weight: bold;
+            -webkit-transition: all 500ms;
+            -o-transition: all 500ms;
+            transition: all 500ms;
+        }
