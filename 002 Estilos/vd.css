@@ -1,0 +1,139 @@
+        body {
+            background-color: rgb(80, 66, 66);
+        }
+        
+        header {
+            width: 100%;
+            overflow: hidden;
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,000000+19 */
+            background: #45484d;
+            /* Old browsers */
+            background: -moz-linear-gradient(top, #45484d 0%, #000000 19%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, #45484d 0%, #000000 19%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, #45484d 0%, #000000 19%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000', GradientType=0);
+            /* IE6-9 */
+            margin-bottom: 25px;
+        }
+        
+        .wrapper {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            overflow: hidden;
+        }
+        
+        header .logo {
+            font-size: 50px;
+            line-height: 35px;
+            color: white;
+        }
+        
+        header nav {
+            float: right;
+        }
+        
+        header nav a {
+            display: inline-block;
+            color: aqua;
+            text-decoration: none;
+            padding: 8px 15px;
+            line-height: normal;
+            font-size: 17px;
+            font-weight: bold;
+            -webkit-transition: all 500ms;
+            -o-transition: all 500ms;
+            transition: all 500ms;
+        }
+        
+        header nav a:hover {
+            background-color: rgb(139, 176, 206);
+            border-radius: 50px;
+        }
+        
+        .header2 {
+            position: fixed;
+            height: 100px;
+        }
+        
+        .header2 .logo {
+            line-height: px;
+            font-size: 10px;
+            text-align: center;
+        }
+        
+        .header2 nav {
+            line-height: 10px;
+        }
+        
+        .contenido p {
+            margin-bottom: 1em;
+        }
+        
+        .contenido {
+            padding-top: 100px;
+        }
+        
+        p {
+            color: rgb(0, 0, 0);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        
+        h1 {
+            text-align: justify;
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        
+        .estilos {
+            background-color: white;
+            border-radius: 5px;
+        }
+        
+        a {
+            color: rgb(7, 134, 28);
+        }
+        
+        a:hover {
+            background-color: rgb(38, 250, 1);
+        }
+        
+        .mk {
+            color: gold;
+        }
+        
+        .cuphead {
+            color: red;
+        }
+        
+        .texto {
+            font-family: 'Times New Roman';
+            text-align: center;
+            color: black;
+        }
+        
+        .c-img {
+            width: 95%;
+            max-width: 800px;
+            margin: 100px auto;
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+        
+        img {
+            width: 100%;
+        }
+        
+        .txt {
+            text-align: center;
+            position: absolute;
+        }
+        
+        .h {
+            color: rgb(5, 0, 0);
+            padding: 10px 20px;
+        }
