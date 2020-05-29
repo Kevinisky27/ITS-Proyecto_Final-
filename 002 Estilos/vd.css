@@ -145,3 +145,10 @@
             border-radius: 4px;
             font-family: Georgia, 'Times New Roman', Times, serif;
         }
+        
+        .piedepagina {
+            color: rgb(10, 10, 10);
+            text-align: right;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 40px;
+        }
