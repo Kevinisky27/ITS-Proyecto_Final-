@@ -1,9 +1,16 @@
 body {
-    background-color: rgb(4, 82, 92);
+    background-color: darkcyan;
     width: 600px;
     margin: 0 auto;
 }
 
 body h1 {
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#micanvas {
+    border: groove 2px red;
+    background: black;
+    box-shadow: 10px 10px 10px #888888;
 }
