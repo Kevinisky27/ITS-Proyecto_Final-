@@ -186,6 +186,12 @@
             border-radius: 50px;
         }
         
+        .umg img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50px;
+        }
+        
         .row label {
             margin-top: 10px;
             margin-left: 10px;
