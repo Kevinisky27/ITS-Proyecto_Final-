@@ -10,7 +10,7 @@ body h1 {
 }
 
 #micanvas {
-    border: groove 2px red;
+    border: groove 2px darkgreen;
     background: black;
     box-shadow: 10px 10px 10px #888888;
 }
