@@ -1,12 +1,27 @@
 body {
     width: 600px;
     margin: 0 auto;
+    background: linear-gradient(-45deg, rgb(250, 9, 150), rgb(198, 41, 246), rgb(28, 126, 238), rgb(114, 47, 238), rgb(255, 0, 64));
+    background-size: 400% 400%;
+    position: relative;
 }
+
 h1 {
     text-align: center;
+    text-transform: uppercase;
+    border: 3px solid #ffffff;
 }
+
 #miCanvas {
-    border: groove 2px red;
-    background: black;
+    border: groove 2px rgb(121, 57, 173);
+    background: rgba(5, 5, 5, 0.883);
     box-shadow: 10px 10px 10px #888888;
+}
+
+.instruciones {
+    background-color: black;
+    border: solid rgb(61, 61, 60);
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
