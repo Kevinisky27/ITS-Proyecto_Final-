@@ -2,6 +2,12 @@
             background-color: rgb(80, 66, 66);
         }
         
+        div img {
+            border-radius: 50;
+            width: 600px;
+            border-radius: 50px;
+        }
+        
         header {
             width: 100%;
             overflow: hidden;
@@ -24,6 +30,16 @@
             max-width: 1000px;
             margin: auto;
             overflow: hidden;
+        }
+        
+        .color {
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            color: rgb(120, 120, 235);
+        }
+        
+        .estilos p {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
         }
         
         header .logo {
@@ -75,11 +91,7 @@
         
         .contenido {
             padding-top: 100px;
-        }
-        
-        p {
-            color: rgb(0, 0, 0);
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-family: Arial, Helvetica, sans-serif;
         }
         
         h1 {
@@ -93,20 +105,8 @@
             border-radius: 5px;
         }
         
-        a {
-            color: rgb(7, 134, 28);
-        }
-        
         a:hover {
             background-color: rgb(87, 116, 111);
-        }
-        
-        .mk {
-            color: gold;
-        }
-        
-        .cuphead {
-            color: red;
         }
         
         .texto {
@@ -115,27 +115,9 @@
             color: black;
         }
         
-        .c-img {
-            width: 95%;
-            max-width: 800px;
-            margin: 100px auto;
-            position: relative;
-            display: flex;
-            align-items: center;
-        }
-        
-        img {
-            width: 100%;
-        }
-        
         .txt {
             text-align: center;
             position: absolute;
-        }
-        
-        .h {
-            color: rgb(5, 0, 0);
-            padding: 10px 20px;
         }
         
         .final {
@@ -201,6 +183,12 @@
         .row img {
             width: 36px;
             height: 36px;
+            border-radius: 50px;
+        }
+        
+        .umg img {
+            width: 150px;
+            height: 150px;
             border-radius: 50px;
         }
         
