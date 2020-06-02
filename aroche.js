@@ -1,4 +1,5 @@
 
+
 var cartas = new Array( 
     {nombre: '1', seleccion: false}, {nombre: '2', seleccion: false}, 
     {nombre: '3', seleccion: false}, {nombre: '4', seleccion: false}, 
@@ -85,27 +86,3 @@ var cartas = new Array(
     document.getElementById(posicion.toString()).style.backgroundColor = color;
     document.getElementById(posicion.toString()).innerHTML = contenido;
   }   
-  
-  function comprobar () {
-    var aciertos = 0;
-    for( var i = 0 ; i < 16 ; i++ ){
-      if ( cartas[i].seleccion == true ) {
-        aciertos ++;
-      }
-  
-    }
-  
-    if(aciertos == 16){
-      document.getElementById("juego").innerHTML = "GANASTE";
-    }
-  }
-  
-  function resetearJuego () {
-              cartas.sort(function() { return Math.random() - 0.5});
-              for ( var i = 0; i < 16 ; i++ ) {
-                  var carta = cartas[i].nombre;
-                  var dato = document.getElementById( i.toString() );
-                  dato.dataset.valor = carta;
-                  colorCambio(i, 'black', '?');
-              }
-          };
