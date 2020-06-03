@@ -1,3 +1,20 @@
 body {
     background-color: aqua;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    background-color: rgb(7, 120, 250);
+    color: aliceblue;
+}
+
+.marco {
+    border-radius: 5px;
+    background-color: black;
+    border: solid;
+}
+
+button {
+    widows: 60px;
 }
