@@ -6,9 +6,7 @@
 }
 
 body {
-    opacity: 0.3;
-    width: 600px;
-    height: 600px;
+    
     background-color: rosybrown
 
 }
@@ -40,4 +38,8 @@ input {
 
 .centrar {
     margin-left: 210px;
+}
+h1 {
+    size: 40%;
+    color: royalblue;
 }
