@@ -1,99 +1,20 @@
-/*------------------------------------------------VARIABLES*/
-
-
-/*En este apartado podemos hacer un root solo de colores si nosotros necesitamos*/
-
-:root {
-    --green-color: rgb(145, 224, 71);
-    --white-color: white;
-    /*Tipografía*/
-    --normal: 12px;
-    /*Espaciado*/
-    --space: 10px;
-}
-
-
-/*------------------------------------------------VARIABLES*/
-
-html,
 body {
-    padding: 10px;
-    margin: 10px;
-    font-size: var(--normal);
-    border-radius: 1px;
-    font-family: helvetica
-}
-
-nav {
-    display: flex;
-    background-color: var(--green-color);
-    padding: var(--space);
-    color: white;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav ul {
-    display: flex;
-}
-
-nav li {
-    padding-left: 20px;
-    list-style: none;
-}
-
-nav li a {
-    color: black;
-    text-decoration: none;
-}
-
-nav li a:hover {
-    color: var(--white-color);
-}
-
-
-/*--------------------------------Main Section */
-
-.main_section {
-    padding: 15%;
+    background-color: aqua;
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.products {
-    background-image: url("../img/curve.png");
-    max-height: 50px;
-    background-size: cover;
-    background-position: center top;
-    padding: 20%;
-    display: flex;
+h1 {
+    background-color: rgb(7, 120, 250);
+    color: aliceblue;
 }
 
-.product {
-    padding: var(--space);
-    margin-top: -230px;
+.marco {
+    border-radius: 5px;
+    background-color: black;
+    border: solid;
 }
 
-.product .content {
-    background-color: var(--white-color);
-    padding: 15px;
-    box-shadow: 0 0 1px #c1bcbc;
-}
-
-.img_content {
-    text-align: center;
-}
-
-.main_button {
-    background-color: var(--green-color);
-    width: 100%;
-    padding: var(--space);
-    font-size: 17px;
-    color: white;
-    border: 0;
-    cursor: pointer;
-    border-radius: 2px;
-}
-
-.main_button:hover {
-    background-color: #9df095f3;
+button {
+    widows: 60px;
 }

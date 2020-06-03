@@ -49,7 +49,7 @@ var teclaIzquierda = 37;
 var teclaDerecha = 39;
 var teclaEspacio = 32;
 var imgNave, imgOvni;
-var municion = 100;
+var municion = 150;
 var ultimos = new Array();
 var imgAni = 0;
 var imgAni2 = 0;
@@ -71,14 +71,14 @@ function Bala(x, y, w) {
     this.w = w;
     this.dibuja = function() {
         ctx.save();
-        ctx.fillStyle = "blue";
+        ctx.fillStyle = "green";
         ctx.fillRect(this.x, this.y, this.w, this.w);
         this.y = this.y - 6;
         ctx.restore();
     };
     this.dispara = function() {
         ctx.save();
-        ctx.fillStyle = "red";
+        ctx.fillStyle = "purple";
         ctx.fillRect(this.x, this.y, this.w, this.w);
         this.y = this.y + 4;
         ctx.restore();
@@ -97,7 +97,7 @@ function nave(x) {
             imgAni2 = imgAni2 + 1;
             imgAni = imgAni + 1;
             checarBalas();
-            //setInterval(checarBalas(),1000);
+
         } else if (imgAni2 < 10) {
             ctx.drawImage(imgNave, 32, 0, 32, 32, this.x, this.y, 35, 35);
             imgAni2 = imgAni2 + 1;
@@ -142,7 +142,7 @@ function Enemigo(x, y) {
         if (this.vive) {
             if (imgAni < 4) {
                 ctx.drawImage(imgOvni, 0, 0, 32, 32, this.x, this.y, 35, 35);
-                //           (imgFile, xini, yini, wimg, himg, xpos  , ypos  , wrez, hrez)
+
             } else if (imgAni < 8) {
                 ctx.drawImage(imgOvni, 32, 0, 32, 32, this.x, this.y, 35, 35);
             } else if (imgAni < 12) {
@@ -228,7 +228,7 @@ function score() {
     ctx.fillStyle = "white";
     ctx.clearRect(0, 0, canvas.width, 20);
     ctx.font = "bold 12px Courier";
-    ctx.fillText("SCORE: " + puntos, 10, 20);
+    ctx.fillText("punteo: " + puntos, 10, 20);
     ctx.restore();
 }
 
@@ -237,7 +237,7 @@ function municiones() {
     ctx.fillStyle = "white";
     ctx.clearRect(0, 20, canvas.width, 20);
     ctx.font = "bold 12px Courier";
-    ctx.fillText("Municion: " + municion, 10, 40);
+    ctx.fillText("balas: " + municion, 10, 40);
     ctx.restore();
 }
 

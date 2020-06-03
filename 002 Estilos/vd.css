@@ -35,6 +35,7 @@
         .color {
             font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
             color: rgb(120, 120, 235);
+            background-color: #000000;
         }
         
         .estilos p {
