@@ -3,74 +3,90 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta charset="UTF-16">
-    <title>Proyecto Final</title>
+    <title>Pagina Principal</title>
+    <!--Es la hoja de esrilos en cascada de la pagina-->
+    <link rel="stylesheet" type="text/css" href="style pg prin.css">
 
-    <!--Aqui es donde van los link para que se pueda usar css
-    Lo que les aconsejo es que utilicen estos 3 en dado caso quieran agregar
-    otro pueden escribirlo-->
+    <!-- jQuery  este es con el que se carga la galeria de imagenes-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-    <link rel="stylesheet" href="002%20Estilos/normalize.css">
-    <link rel="stylesheet" href="002%20Estilos/estilos.css">
-    <!--este mobile nos ayudará para que tambien se pueda ver muy bien en
-    celulares-->
-    <link rel="stylesheet" href="002%20Estilos/mobile.css">
+    <!-- Slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <!-- Mis Scripts -->
+    <script type="text/javascript" src="main.js"></script>
+
+
 </head>
 
 <body>
-    <!--Aqui empezamos con el navBar-->
-    <nav>
-        <div class="branc_image">
-            <img src="001%20Imagenes%20de%20Productos%20en%20Ventas/000%20Importantes/Logo%20de%20nuestra%20tienda.jpg" width="75" height="75">
-        </div>
-        <div>
-            <ul>
-                <li><a href="videojuegos.html">VideoJuegos</a></li>
-                <li><a href="#">Productos</a></li>
-            </ul>
-        </div>
+    <section id="global">
+        <header>
+            <div id="logo">
+                <H1>Proyecto Ingenieria</H1>
+            </div>
+            <div class="clean"></div>
 
-    </nav>
-    <!--Aqui acaba el navBar-->
-
-    <!--Aca inicia el primer titulo-->
-    <div class="main_section">
-        <h1>
-            Este es un producto increible, no se que haces viendo que lo puedes tener
-        </h1>
-    </div>
-    <!--Aca finaliza nuestro primer titulo-->
-    <!--inicia el producto-->
-    <div class="products">
-        <div class="product">
-            <div class="content">
-                <div class="img_content">
-                    <img src="001%20Imagenes%20de%20Productos%20en%20Ventas/000%20Importantes/Tienda%20en%20Linea.png" width="150px" height="150">
-                </div>
-                <h1>Nuestra Tienda ONLINE</h1>
-                <p>Miles de productos hay en el mercado, pero nada como nuestros productos</p>
-                <button href="" class="main_button">Lo quiero comprar</button>
+            <!--barra de navegacion-->
+            <nav id="menu">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Reloj</a></li>
+                    <li><a href="#">Sobre la Carrera</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="clean"></div>
+        <!--galeria de juegos-->
+        <div id="slider">
+            <div class="bxSlider">
+                <div><img src="001 Imagenes de Productos en Ventas/000 Importantes/space invaders.png" title="AnimalCrossinng"></div>
+                <div><img src="001 Imagenes de Productos en Ventas/000 Importantes/space invaders.png" title="AnimalCrossinng"></div>
+                <div><img src="001 Imagenes de Productos en Ventas/000 Importantes/space invaders.png" title="AnimalCrossinng"></div>
             </div>
         </div>
-        <div class="product">
-            <div class="content">
-                <div class="img_content">
-                    <img src="001%20Imagenes%20de%20Productos%20en%20Ventas/000%20Importantes/Videojuegos.jpg" height="150" width="150">
-                </div>
-                <h1>Videojuegos</h1>
-                <p>Miles de productos hay en el mercado, pero nada como un videojuego ideal.</p>
-                <button href="" class="main_button">Lo quiero comprar</button>
-            </div>
         </div>
-    </div>
-    <!--finaliza el producto-->
-    <!--inicia beneficios-->
-    <div class="beneficios">
-        <div class="beneficio"></div>
-    </div>
-    <!--fin de beneficios-->
 
-    <script src="003%20Funcionalidad%20con%20JS/Funciones%20de%20dinamismo.js"></script>
+
+        <!--contenido de la pagina-->
+        <section id="Content ">
+            <div id="posteo ">
+                <article class="post ">
+
+                    <h2> Descripción</h2>
+                    <span class="date ">
+                    Fecha de Publicación
+                </span>
+                    <p>
+                        La carrera de Ingenieria en sistemas es una carrera en la que nostros como estudiantes tenemos la posiblidad de aprender, sobre diferentes areas de la educacion en la que nosotros como estudiantes nos podemos especializar en diferentes areas y podemos
+                        explorar cuales son nuestros mayores interes como personas y en este proyecto se mostrara nuestra capacidad de trabajar en equipo. esta pagina mostrara multiples opciones en las que henos estado colaborando como grupo ´para poder
+                        mostrarlo a los usuarios en la barra de opciones apreceran los diferentes contenidos que puede seleccionar el usuario.
+                        <br>
+                        <br>¡ ESPERANDO QUE LES GUSTE!!!!</br>
+
+                    </p>
+                    <!---esta seria la barra de lado derecho junto con la imagen-->
+                </article>
+            </div>
+            <aside id="barra ">
+                <div id="more "></div>
+                <h4>Quienes somos...</h4>
+                <img src="K-Borge/imagenes/logo umg.png" alt=" ">
+                <p>
+                    La universidad Mariano Galvez de Guatemala es una institucion eductiva que lucha por la enseñanza, sin importar el tipo de persona ointentando formar peronas que ayuden, al futuro del pais siendo personas cositivas y contribuchentes con buenas costumbres.
+                </p>
+
+            </aside>
+            <div class="clean "></div>
+
+        </section>
+    </section>
+
+    <footer>
+        Kevin Borge Tobar Ingenieria en sistemas &copy;
+    </footer>
 </body>
 
 </html>

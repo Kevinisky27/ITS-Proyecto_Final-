@@ -14,7 +14,7 @@ h1 {
 
 #miCanvas {
     border: groove 2px rgb(121, 57, 173);
-    background: rgba(5, 5, 5, 0.883);
+    background-color: black;
     box-shadow: 10px 10px 10px #888888;
 }
 
