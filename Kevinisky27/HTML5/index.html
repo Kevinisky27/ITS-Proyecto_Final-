@@ -3,9 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Culebrita S.A.</title>
+  <title>SNAKE</title>
+
 </head>
-<body>
+<style>
+  canvas{
+    border: 1px solid black;
+  }
+</style>
+<body onkeydown="control(event);">
+  <script src="JS/Snake.js"></script>
+  <canvas id="canvas" width="600" height="600"></canvas>
   
 </body>
 </html>
