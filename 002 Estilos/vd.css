@@ -129,6 +129,13 @@
             font-family: Georgia, 'Times New Roman', Times, serif;
         }
         
+        .documento {
+            background-color: rgb(32, 226, 32);
+            border-radius: 50px;
+            text-decoration: double;
+            font-weight: 100px;
+        }
+        
         .general {
             margin: 0px;
             padding: 0px;
