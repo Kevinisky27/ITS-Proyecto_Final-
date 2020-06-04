@@ -129,6 +129,13 @@
             font-family: Georgia, 'Times New Roman', Times, serif;
         }
         
+        .documento {
+            background-color: rgb(32, 226, 32);
+            border-radius: 50px;
+            text-decoration: double;
+            font-weight: 100px;
+        }
+        
         .general {
             margin: 0px;
             padding: 0px;
@@ -139,7 +146,6 @@
         footer {
             background-color: black;
             color: white;
-            width: 100%;
             padding: 40px;
         }
         
@@ -238,7 +244,6 @@
         }
         
         .container-footer {
-            width: 100%;
             background-color: #101010;
             display: flex;
             justify-content: space-between;
