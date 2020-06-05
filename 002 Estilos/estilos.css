@@ -1,17 +1,102 @@
 body {
-    background-color: aqua;
+    background: linear-gradient(-45deg, rgb(250, 9, 150), rgb(198, 41, 246), rgb(28, 126, 238), rgb(114, 47, 238), rgb(255, 0, 64));
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h1 {
-    background-color: rgb(7, 120, 250);
+    background-color: rgb(7, 7, 7);
     color: aliceblue;
+    font-size: 50px;
 }
 
-.marco {
+.juegos1 {
+    margin: 0;
+    padding: 0;
+    background: rgb(50, 189, 103);
+    color: rgb(5, 5, 5);
+    display: inline-block;
+    font-size: 50px;
+    margin: 20px;
+    padding: 50px 50px;
+    text-align: center;
+    width: 500px;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px #373c3c;
     border-radius: 5px;
-    background-color: black;
+    border-bottom: solid;
+    border: solid;
+}
+
+.juegos2 {
+    margin: 0;
+    padding: 0;
+    background: rgb(115, 50, 189);
+    color: rgb(5, 5, 5);
+    display: inline-block;
+    font-size: 50px;
+    margin: 20px;
+    padding: 50px 50px;
+    text-align: center;
+    width: 500px;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px #373c3c;
+    border-radius: 5px;
+    border-bottom: solid;
+    border: solid;
+}
+
+.juegos3 {
+    margin: 0;
+    padding: 0;
+    background: rgb(216, 170, 19);
+    color: rgb(5, 5, 5);
+    display: inline-block;
+    font-size: 50px;
+    margin: 20px;
+    padding: 50px 50px;
+    text-align: center;
+    width: 500px;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px #373c3c;
+    border-radius: 5px;
+    border-bottom: solid;
+    border: solid;
+}
+
+.juegos4 {
+    margin: 0;
+    padding: 0;
+    background: rgb(186, 59, 237);
+    color: rgb(5, 5, 5);
+    display: inline-block;
+    font-size: 50px;
+    margin: 20px;
+    padding: 50px 50px;
+    text-align: center;
+    width: 500px;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px #373c3c;
+    border-radius: 5px;
+    border-bottom: solid;
+    border: solid;
+}
+
+.juegos5 {
+    margin: 0;
+    padding: 0;
+    background: rgb(231, 55, 11);
+    color: rgb(5, 5, 5);
+    display: inline-block;
+    font-size: 50px;
+    margin: 20px;
+    padding: 50px 50px;
+    text-align: center;
+    width: 500px;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px #373c3c;
+    border-radius: 5px;
+    border-bottom: solid;
     border: solid;
 }
 

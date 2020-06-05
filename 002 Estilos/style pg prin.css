@@ -79,7 +79,10 @@
  
  .post h2 {
      font-size: 35px;
-     color: #333;
+     color: rgb(255, 254, 254);
+     background-color: black;
+     text-align: center;
+     text-transform: capitalize;
  }
  
  .post .date {
@@ -237,4 +240,7 @@
  
  .copyright {
      color: #c7c7c7;
+     width: 100%;
+     border-radius: 100%;
+     font-size: large;
  }
