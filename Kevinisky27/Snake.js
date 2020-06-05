@@ -82,6 +82,7 @@ function move() {
     var ny = head.y + ydir;
     head.setxy(nx, ny);
 }
+
 function control(event) {
     var cod = event.keyCode;
     if (ex) {
@@ -123,11 +124,13 @@ function GameOver() {
     comida = new Comida();
     alert("¡Lo sentimos, sigue intentandolo!");
 }
+
 function choquepared() {
     if (head.x < 0 || head.x > 590 || head.y < 0 || head.y > 590) {
         GameOver();
     }
 }
+
 function choquecuerpo() {
     var temp = null;
     try {
@@ -137,7 +140,7 @@ function choquecuerpo() {
     }
     while (temp != null) {
         if (head.golpe(temp)) {
-            
+
             GameOver();
         } else {
             temp = temp.verSiguiente();
@@ -153,6 +156,7 @@ function draw() {
     head.dibujar(ctx);
     comida.dibujar(ctx);
 }
+
 function main() {
     choquecuerpo();
     choquepared();
