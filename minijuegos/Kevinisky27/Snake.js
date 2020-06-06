@@ -122,7 +122,7 @@ function GameOver() {
     ey = true;
     head = new snake(20, 20);
     comida = new Comida();
-    alert("¡Lo sentimos, sigue intentandolo!");
+    alert("GAME OVER");
 }
 
 function choquepared() {
