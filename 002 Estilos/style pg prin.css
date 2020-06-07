@@ -1,153 +1,255 @@
-             * {
-             margin: 0px;
-             padding: 0px;
+         * {
+         margin: 0px;
+         padding: 0px;
+     }
+     
+     .clean {
+         float: none;
+         clear: both;
+     }
+     
+     body {
+         background-color: #235e3d;
+         background-attachment: fixed;
+     }
+     
+     #global {
+         width: 65%;
+         margin: 0px auto;
+         margin-top: 30px;
+         padding: 20px;
+         background-color: white;
+         box-shadow: 0px 0px 2px gray;
+     }
+     
+     #logo {
+         font-family: verdana, arial;
+         font-size: 30px;
+         letter-spacing: 4px;
+         line-height: 80px;
+         background: #235e3d;
+         color: white;
+         text-align: center;
+         width: 100%;
+         height: 80px;
+         margin-bottom: 20px;
+         float: left;
+     }
+     
+     #menu {
+         font-family: Arial, Helvetica, sans-serif;
+         background: #333;
+         width: 100%;
+         text-transform: uppercase;
+         margin-bottom: 20px;
+     }
+     
+     #menu ul {
+         line-height: 46px;
+         list-style: none;
+     }
+     
+     #menu ul li {
+         height: 46px;
+         display: inline-block;
+         transition: all 350mm;
+     }
+     
+     #menu ul li:hover {
+         background: #235e3d;
+     }
+     
+     #menu a {
+         display: block;
+         color: white;
+         text-decoration: none;
+         padding-left: 30px;
+         padding-right: 30px;
+     }
+     
+     #posteo {
+         width: 60%;
+         float: left;
+         font-family: Arial, Helvetica, sans-serif;
+     }
+     
+     .post {
+         padding: 5px;
+     }
+     
+     .post h2 {
+         font-size: 35px;
+         color: rgb(255, 254, 254);
+         background-color: black;
+         text-align: center;
+         text-transform: capitalize;
+     }
+     
+     .post .date {
+         display: block;
+         color: gray;
+         margin-top: 10px;
+     }
+     
+     .post p {
+         margin-top: 8px;
+         text-align: justify;
+         margin-bottom: 20px;
+         line-height: 17px;
+     }
+     
+     #barra {
+         font-family: Helvetica, Arial;
+         width: 31%;
+         float: right;
+     }
+     
+     #barra h1 {
+         margin-top: 70px;
+         margin-bottom: 20px;
+         text-align: center;
+         line-height: 10px;
+         color: #333;
+     }
+     
+     #barra h1 span {
+         background: white;
+         padding: 5px;
+     }
+     
+     #barra img {
+         width: 100%;
+     }
+     
+     #barra p {
+         font-size: 15px;
+         text-align: justify;
+     }
+     
+     .bx-wrapper,
+     .bx-viewport {
+         height: 350px !important;
+     }
+     
+     footer {
+         background-color: black;
+         color: white;
+         padding: 40px;
+     }
+     
+     <<<<<<< HEAD:style pg prin.css .bx-wrapper,
+     .bx-viewport {
+         height: 350px !important;
+     }
+     
+     #box {
+         width: 60%;
+         float: left;
+         margin-top: 40px;
+     }
+     
+     #reloj {
+         font-size: 40px;
+         font-weight: bold;
+         font-family: Helvetica, Arial;
+         color: #333;
+         border: 5px dashed #333;
+         width: 30%;
+         padding: 30px;
+         margin: 0px auto;
+         =======.container-footer-all {
+             max-width: 1200pz;
+             margin: auto;
          }
-         
-         .clean {
-             float: none;
-             clear: both;
+         .container-body {
+             display: flex;
+             justify-content: space-between;
          }
-         
-         body {
-             background-color: #235e3d;
-             background-attachment: fixed;
+         .colum1 {
+             max-width: 400px;
          }
-         
-         #global {
-             width: 65%;
-             margin: 0px auto;
-             margin-top: 30px;
-             padding: 20px;
-             background-color: white;
-             box-shadow: 0px 0px 2px gray;
+         .colum1 h1 {
+             font-size: 22px;
          }
-         
-         #logo {
-             font-family: verdana, arial;
-             font-size: 30px;
-             letter-spacing: 4px;
-             line-height: 80px;
-             background: #235e3d;
-             color: white;
-             text-align: center;
-             width: 100%;
-             height: 80px;
-             margin-bottom: 20px;
-             float: left;
+         .colum1 p {
+             font-size: 14px;
+             color: #c7c7c7;
+             margin-top: 20px;
          }
-         
-         #menu {
-             font-family: Arial, Helvetica, sans-serif;
-             background: #333;
-             width: 100%;
-             text-transform: uppercase;
-             margin-bottom: 20px;
+         .colum2 {
+             max-width: 400px;
          }
-         
-         #menu ul {
-             line-height: 46px;
-             list-style: none;
+         .colum2 h1 {
+             font-size: 22px;
          }
-         
-         #menu ul li {
-             height: 46px;
-             display: inline-block;
-             transition: all 350mm;
+         .colum2 .row {
+             margin-top: 20px;
+             display: flex;
          }
-         
-         #menu ul li:hover {
-             background: #235e3d;
+         .row img {
+             width: 36px;
+             height: 36px;
+             border-radius: 50px;
          }
-         
-         #menu a {
-             display: block;
-             color: white;
-             text-decoration: none;
-             padding-left: 30px;
-             padding-right: 30px;
+         .umg img {
+             width: 150px;
+             height: 150px;
+             border-radius: 50px;
          }
-         
-         #posteo {
-             width: 60%;
-             float: left;
-             font-family: Arial, Helvetica, sans-serif;
+         .row label {
+             margin-top: 10px;
+             margin-left: 10px;
+             color: #c7c7c7;
          }
-         
-         .post {
-             padding: 5px;
+         .colum3 {
+             max-width: 400px;
          }
-         
-         .post h2 {
-             font-size: 35px;
-             color: rgb(255, 254, 254);
-             background-color: black;
-             text-align: center;
-             text-transform: capitalize;
+         .colum3 h1 {
+             font-size: 19px;
          }
-         
-         .post .date {
-             display: block;
-             color: gray;
+         .row2 {
+             margin-top: 20px;
+             color: #c7c7c7;
+             display: flex;
+         }
+         .row2 img {
+             width: 36px;
+             height: 36px;
+             border-radius: 50px;
+         }
+         .row2 label {
+             margin-left: 20px;
+         }
+         .row2 label {
+             margin-left: 20px;
+             max-width: 150px;
+             max-width: 150px;
              margin-top: 10px;
          }
-         
-         .post p {
-             margin-top: 8px;
+         footer a {
+             color: #c7c7c7;
+             background-color: #101010;
+             font-weight: bold;
+             text-decoration: none;
+         }
+         .container-footer {
+             background-color: #101010;
+             display: flex;
+             justify-content: space-between;
              text-align: justify;
-             margin-bottom: 20px;
-             line-height: 17px;
+             height: 30px;
          }
-         
-         #barra {
-             font-family: Helvetica, Arial;
-             width: 31%;
-             float: right;
-         }
-         
-         #barra h1 {
-             margin-top: 70px;
-             margin-bottom: 20px;
-             text-align: center;
-             line-height: 10px;
-             color: #333;
-         }
-         
-         #barra h1 span {
-             background: white;
-             padding: 5px;
-         }
-         
-         #barra img {
+         .copyright {
+             color: #c7c7c7;
              width: 100%;
+             border-radius: 100%;
+             font-size: large
          }
-         
-         #barra p {
-             font-size: 15px;
-             text-align: justify;
-         }
-         
-         .bx-wrapper,
-         .bx-viewport {
-             height: 350px !important;
-         }
-         
-         footer {
-             background-color: black;
-             color: white;
-             padding: 40px;
-         }
-         
-         <<<<<<< HEAD:style pg prin.css .bx-wrapper,
-         .bx-viewport {
-             height: 350px !important;
-         }
-         
          #box {
              width: 60%;
              float: left;
              margin-top: 40px;
          }
-         
          #reloj {
              font-size: 40px;
              font-weight: bold;
@@ -157,106 +259,4 @@
              width: 30%;
              padding: 30px;
              margin: 0px auto;
-             =======.container-footer-all {
-                 max-width: 1200pz;
-                 margin: auto;
-             }
-             .container-body {
-                 display: flex;
-                 justify-content: space-between;
-             }
-             .colum1 {
-                 max-width: 400px;
-             }
-             .colum1 h1 {
-                 font-size: 22px;
-             }
-             .colum1 p {
-                 font-size: 14px;
-                 color: #c7c7c7;
-                 margin-top: 20px;
-             }
-             .colum2 {
-                 max-width: 400px;
-             }
-             .colum2 h1 {
-                 font-size: 22px;
-             }
-             .colum2 .row {
-                 margin-top: 20px;
-                 display: flex;
-             }
-             .row img {
-                 width: 36px;
-                 height: 36px;
-                 border-radius: 50px;
-             }
-             .umg img {
-                 width: 150px;
-                 height: 150px;
-                 border-radius: 50px;
-             }
-             .row label {
-                 margin-top: 10px;
-                 margin-left: 10px;
-                 color: #c7c7c7;
-             }
-             .colum3 {
-                 max-width: 400px;
-             }
-             .colum3 h1 {
-                 font-size: 19px;
-             }
-             .row2 {
-                 margin-top: 20px;
-                 color: #c7c7c7;
-                 display: flex;
-             }
-             .row2 img {
-                 width: 36px;
-                 height: 36px;
-                 border-radius: 50px;
-             }
-             .row2 label {
-                 margin-left: 20px;
-             }
-             .row2 label {
-                 margin-left: 20px;
-                 max-width: 150px;
-                 max-width: 150px;
-                 margin-top: 10px;
-             }
-             footer a {
-                 color: #c7c7c7;
-                 background-color: #101010;
-                 font-weight: bold;
-                 text-decoration: none;
-             }
-             .container-footer {
-                 background-color: #101010;
-                 display: flex;
-                 justify-content: space-between;
-                 text-align: justify;
-                 height: 30px;
-             }
-             .copyright {
-                 color: #c7c7c7;
-                 width: 100%;
-                 border-radius: 100%;
-                 font-size: large
-             }
-             #box {
-                 width: 60%;
-                 float: left;
-                 margin-top: 40px;
-             }
-             #reloj {
-                 font-size: 40px;
-                 font-weight: bold;
-                 font-family: Helvetica, Arial;
-                 color: #333;
-                 border: 5px dashed #333;
-                 width: 30%;
-                 padding: 30px;
-                 margin: 0px auto;
-             }
+         }
