@@ -135,3 +135,20 @@
  .bx-viewport {
      height: 350px !important;
  }
+ 
+ #box {
+     width: 60%;
+     float: left;
+     margin-top: 40px;
+ }
+ 
+ #reloj {
+     font-size: 40px;
+     font-weight: bold;
+     font-family: Helvetica, Arial;
+     color: #333;
+     border: 5px dashed #333;
+     width: 30%;
+     padding: 30px;
+     margin: 0px auto;
+ }
