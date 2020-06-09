@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/fondo.jpg);
+}
+
+header {
+    background: #347ce9;
+    padding: 10px;
+    color: #fff;
+    font-family: 'Gamja Flower', cursive;
+    text-align: center;
+}
+
+header>h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.marcador {
+    border: 3px solid #fff;
+    margin: 30px auto;
+    width: 200px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 100;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.badge {
+    background: #4d81e2;
+    font-size: 14px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 1px 2px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.user-label {
+    position: absolute;
+    top: auto;
+    left: -25px;
+    height: 40%;
+    width: 30%;
+}
+
+.comp-label {
+    position: absolute;
+    top: auto;
+    right: -25px;
+    height: 40%;
+    width: 30%;
+}
+
+#user-score,
+#comp-score {
+    padding: 5px;
+    font-size: 30px;
+}
+
+.result {
+    font-size: 60px;
+    color: #fff;
+}
+
+.result>p {
+    text-align: center;
+    font-family: 'Gamja Flower', cursive;
+}
+
+.opciones {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.choice {
+    display: inline-block;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    background: #fff;
+    padding: 15px;
+    margin: 20px;
+    transition: all 0.3s ease;
+}
+
+.choice:hover {
+    background: #3767b1;
+    cursor: pointer;
+}
+
+#accion {
+    text-align: center;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 50px;
+    color: #fff;
+}
+
+.verde {
+    border: 3px solid #3CCF1A;
+    box-shadow: 0 0 10px rgb(18, 19, 18);
+}
+
+.rojo {
+    border: 3px solid #D30E0E;
+    box-shadow: 0 0 10px rgb(233, 227, 227);
+}
+
+.gris {
+    border: 3px solid #D0C7C7;
+    box-shadow: 0 0 10px rgb(32, 30, 30);
+}
