@@ -29,8 +29,8 @@ function ganar(opcionUser, opcionPc) {
     userScore++;
     userScore_span.innerHTML = userScore;
     const smallUser = "(TU)".fontsize(2);
-    const smallPc = "(TU COMPUTADORA)".fontsize(2);
-    result_div.innerHTML = convertirLetra(opcionUser) + smallUser + " le gana a " + convertirLetra(opcionPc) + smallPc + ".<br>  Que Cool Tu ganaste!!";
+    const smallPc = "(TU COMPU)".fontsize(2);
+    result_div.innerHTML = convertirLetra(opcionUser) + smallUser + " le gana a  " + convertirLetra(opcionPc) + smallPc + ".<br> Wooow  ganaste Gran Jugada!!";
     const userChoice_div = document.getElementById(opcionUser);
     const pcChoice_div = document.getElementById(opcionPc);
     userChoice_div.classList.add('verde');
@@ -45,8 +45,8 @@ function pierda(opcionUser, opcionPc) {
     compScore++;
     compScore_span.innerHTML = compScore;
     const smallUser = "(TU)".fontsize(2);
-    const smallPc = "(TU COMPUTADORA)".fontsize(2);
-    result_div.innerHTML = convertirLetra(opcionPc) + smallPc + " le gana a " + convertirLetra(opcionUser) + smallUser + ".<br> Que triste  Tu perdiste";
+    const smallPc = "(TU COMPU)".fontsize(2);
+    result_div.innerHTML = convertirLetra(opcionPc) + smallPc + " Siempre le gana a" + convertirLetra(opcionUser) + smallUser + ".<br> Que triste te gano tu computadora";
     const userChoice_div = document.getElementById(opcionUser);
     const pcChoice_div = document.getElementById(opcionPc);
     userChoice_div.classList.add('rojo');
@@ -58,7 +58,7 @@ function pierda(opcionUser, opcionPc) {
 }
 
 function empate(opcionUser) {
-    result_div.innerHTML = "Ambos se sicronizaron " + convertirLetra(opcionUser) + ".<br>  Woow Es un empate!!";
+    result_div.innerHTML = "Ambos eligierón " + convertirLetra(opcionUser) + ".<br> wOOW Que sincronia Es un empate!!";
     const opcion_div = document.getElementById(opcionUser);
     opcion_div.classList.add('gris');
     setTimeout(function() {

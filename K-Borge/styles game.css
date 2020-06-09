@@ -9,11 +9,10 @@ body {
 }
 
 header {
-    background: #347ce9;
+    background: #3277d1;
     padding: 10px;
     color: #fff;
     font-family: 'Gamja Flower', cursive;
-    text-align: center;
 }
 
 header>h1 {
@@ -23,19 +22,19 @@ header>h1 {
 
 .marcador {
     border: 3px solid #fff;
-    margin: 30px auto;
+    margin: 20px auto;
     width: 200px;
     color: #fff;
-    font-size: 50px;
-    font-weight: 100;
-    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
     text-align: center;
     padding: 15px 20px;
     position: relative;
 }
 
 .badge {
-    background: #4d81e2;
+    background: #3277d1;
     font-size: 14px;
     border: 2px solid #fff;
     border-radius: 10px;
@@ -62,11 +61,11 @@ header>h1 {
 #user-score,
 #comp-score {
     padding: 5px;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .result {
-    font-size: 60px;
+    font-size: 40px;
     color: #fff;
 }
 
@@ -91,28 +90,28 @@ header>h1 {
 }
 
 .choice:hover {
-    background: #3767b1;
+    background: #3277d1;
     cursor: pointer;
 }
 
 #accion {
     text-align: center;
     font-family: 'Gamja Flower', cursive;
-    font-size: 50px;
+    font-size: 30px;
     color: #fff;
 }
 
 .verde {
     border: 3px solid #3CCF1A;
-    box-shadow: 0 0 10px rgb(18, 19, 18);
+    box-shadow: 0 0 10px rgb(61, 46, 198);
 }
 
 .rojo {
     border: 3px solid #D30E0E;
-    box-shadow: 0 0 10px rgb(233, 227, 227);
+    box-shadow: 0 0 10px rgb(191, 221, 22);
 }
 
 .gris {
     border: 3px solid #D0C7C7;
-    box-shadow: 0 0 10px rgb(32, 30, 30);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
 }
